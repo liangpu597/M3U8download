@@ -1,0 +1,1 @@
+ffmpeg -threads 0 -i http://hls.cntv.myalicdn.com/asp/hls/1200/0303000a/3/default/4c0399d93e7744aaaa6e609cc69ea95d/1200.m3u8 -c copy -y -bsf:a aac_adtstoasc -movflags +faststart 1.mp4
